@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  
+  <div id="homeBackground" class="home-background"></div>
+  <div class="app">
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle">
+      <button id="themeBtn">🌙</button>
+    </div>
+
+    <!-- App Title -->
+    <h1>🌦️ Weather Dashboard</h1>
+
+    <!-- Search Box -->
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <!-- Weather Info Card -->
+    <div id="weather" class="card hidden">
+      <h2 id="cityName"></h2>
+      <p id="temp"></p>
+      <p id="desc"></p>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+
+      <!-- Chart.js Canvas -->
+      <div class="weather-graph">
+        <canvas id="tempChart" width="400" height="200"></canvas>
+      </div>
+    </div>
+
+    <!-- Error Message -->
+    <p id="error" class="error"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
