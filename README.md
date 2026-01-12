@@ -10,7 +10,7 @@
 - **CSS** – Responsive design & theming  
 - **JavaScript** – Async logic & DOM manipulation  
 - **Weather API** – Real-time data using `fetch()` & `async/await`
-- Enhance GitHub Repo
+  
 ## 🎯 What I Learned
 This project strengthened my understanding of:  
 - Asynchronous JavaScript (async/await)  
